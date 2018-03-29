@@ -40,3 +40,29 @@ header{
 .black{
   color: black;
 }
+
+
+
+
+main{
+  display: inline-flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  border: thin solid black;
+}
+
+.cleft{
+  width: 630px;
+  border: thin solid red;
+}
+
+.ccenter{
+  width: 300px;
+  border: medium solid green;
+}
+
+.cright{
+  width: 240px;
+  border: thin solid blue;
+}
