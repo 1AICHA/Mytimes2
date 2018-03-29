@@ -1,5 +1,42 @@
-h1{
-  font-size: 60px;
+
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
-  color: red;
+  border-bottom: thin solid black;
+  padding-bottom: 10px;
+}
+
+.hleft{
+  display: inline-flex;
+  align-items: center;
+  color: mediumaquamarine;
+  width: 600px;
+  /*border: thin dotted green;*/
+  margin-left: 20px;
+}
+
+.hleft p{
+  padding-left: 15px;
+}
+
+.hright{
+  display: inline-flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hright ul li{
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.black{
+  color: black;
 }
