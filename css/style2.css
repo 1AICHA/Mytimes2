@@ -9,6 +9,11 @@ header{
   font-weight: bold;
   border-bottom: thin solid black;
   padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 3;
+
 }
 
 .hleft{
@@ -44,25 +49,144 @@ header{
 
 
 
+body{
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+
 main{
   display: inline-flex;
   width: 100%;
   margin: 0 auto;
-  justify-content: center;
-  border: thin solid black;
+  justify-content: center ;
+  position: relative;
+  border: thin solid red;
+  /*flex-shrink: 0;*/
+  margin-bottom: 70px;
+  z-index: 1;
+  margin-top: 40px;
 }
+
 
 .cleft{
   width: 630px;
-  border: thin solid red;
+  /*border: thin solid red;*/
+  margin-right: 30px;
+  margin-top: 60px;
+  flex-shrink: 0;
 }
 
 .ccenter{
   width: 300px;
-  border: medium solid green;
+  /*border: medium solid green;*/
+  margin-right: 30px;
+  margin-top: 30px;
+  flex-shrink: 0;
 }
 
 .cright{
   width: 240px;
-  border: thin solid blue;
+  /*border: thin solid blue;*/
+  margin-right: 30px;
+  margin-top: 30px;
+  flex-shrink: 0;
 }
+
+
+.sttop{
+  display: flex;
+  flex-direction: column;
+  /*border: thin solid purple;*/
+}
+
+.toptittle{
+  font-weight: bold;
+ font-size: 40px;
+ color: white;
+/* border: thin solid black;*/
+  background-image: url("./images/img-story-main.png");
+  height: 300px;
+}
+
+.stbottom{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  /*border: thick solid black;*/
+
+}
+
+.a{
+  order: 1;
+  width: 299px;
+}
+
+.b{
+  background-image: url("./images/img-story-2.png");
+  height: 300px;
+  width: 299px;
+  font-weight: bold;
+ font-size: 30px;
+ color: white;
+ order: 3;
+}
+
+.c{
+  order: 2;
+  width: 299px;
+}
+
+.d{
+  background-image: url("./images/img-story-3.png");
+  height: 300px;
+  width: 299px;
+  font-weight: bold;
+ font-size: 30px;
+ color: white;
+ order: 4;
+
+}
+
+.a, .b, .c, .d{
+  /*border: thin solid black;*/
+}
+
+.y div{
+border: thin solid black;
+}
+
+.cat{
+  background-image: url("./images/img-story-1.png");
+  height: 300px;
+  width: 299px;
+  font-weight: bold;
+ font-size: 30px;
+ color: white;
+}
+
+
+.table{
+  display: flex;
+  flex-direction: column;
+  margin: 0px
+ }
+
+.cright h2{
+  font-size: 16px;
+ font-weight: bold;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+ .table p{
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+ margin: 0px;
+ padding: 10px 20px;
+ border-bottom: thin solid black;
+ }
