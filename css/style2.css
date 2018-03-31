@@ -190,3 +190,47 @@ border: thin solid black;
  padding: 10px 20px;
  border-bottom: thin solid black;
  }
+
+
+
+ footer{
+display: flex;
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+height: 300px;
+flex-direction: column;
+justify-content: center;
+
+ }
+
+.lijn1{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.suba{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: medium solid white;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+
+.subb ul li{
+  display: inline-flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lijn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
